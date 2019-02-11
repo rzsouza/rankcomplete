@@ -27,3 +27,5 @@ jobs:
 
       - store_test_results:
           path: target/surefire-reports
+
+      - run: mvn sonar:sonar -Dsonar.projectKey=rankcomplete -Dsonar.organization=rzsouza-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_LOGIN
