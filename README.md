@@ -5,3 +5,18 @@
 # rankcomplete
  
 [SonarQube](https://sonarcloud.io/dashboard?id=rankcomplete)
+
+In this project:
+- Java 8
+- Spring Boot
+- REST
+- Spring MVC
+- Continuous Integration
+- CircleCI
+- SonarQube
+- SonarCloud
+- TDD
+- Unit Tests
+- Junit 5
+- Integration Tests
+- Rest Assured
