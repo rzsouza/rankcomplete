@@ -25,7 +25,7 @@ jobs:
 
       - run: mvn package
 
-      - run: mvn verify
+      - run: mvn verify -P all-tests
 
       - run:
           name: Save test results

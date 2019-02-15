@@ -18,5 +18,6 @@ In this project:
 - TDD
 - Unit Tests
 - Junit 5
+- AssertJ
 - Integration Tests
 - Rest Assured
