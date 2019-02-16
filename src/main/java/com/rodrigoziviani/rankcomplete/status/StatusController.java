@@ -1,6 +1,6 @@
 package com.rodrigoziviani.rankcomplete.status;
 
-import org.springframework.http.*;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class StatusController {
 
     @GetMapping("/status")
-    public ResponseEntity<Void> status() {
-        return new ResponseEntity<>(HttpStatus.OK);
+    public ResponseEntity<String> status() {
+        return ResponseEntity.ok("RankComplete running OK");
     }
-
 }

@@ -8,6 +8,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static io.restassured.RestAssured.when;
+import static org.hamcrest.core.IsEqual.equalTo;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 @ExtendWith(SpringExtension.class)
@@ -26,6 +27,7 @@ class StatusControllerIT {
         when()
                 .get("/status").
         then()
-                .statusCode(200);
+                .statusCode(200)
+                .body(equalTo("RankComplete running OK"));
     }
 }

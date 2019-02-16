@@ -8,11 +8,11 @@ import static org.springframework.http.HttpStatus.OK;
 
 class StatusControllerTest {
 
-    private static final ResponseEntity<Void> OK_RESPONSE = new ResponseEntity<>(OK);
-
     @Test
     void shouldReturnStatusOk() {
         StatusController controller = new StatusController();
-        assertThat(controller.status()).isEqualTo(OK_RESPONSE);
+        ResponseEntity<String> response = controller.status();
+        assertThat(response.getStatusCode()).isEqualTo(OK);
+        assertThat(response.getBody()).isEqualTo("RankComplete running OK");
     }
 }

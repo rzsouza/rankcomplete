@@ -1,10 +1,9 @@
 [![CircleCI](https://circleci.com/gh/rzsouza/rankcomplete.svg?style=svg)](https://circleci.com/gh/rzsouza/rankcomplete)
-
-![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=rankcomplete&metric=alert_status)
+[![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=rankcomplete&metric=alert_status)](https://sonarcloud.io/dashboard?id=rankcomplete)
 
 # rankcomplete
- 
-[SonarQube](https://sonarcloud.io/dashboard?id=rankcomplete)
+
+Latest version deployed to [Heroku](https://rankcomplete.herokuapp.com/status) 
 
 In this project:
 - Java 8
@@ -21,3 +20,6 @@ In this project:
 - AssertJ
 - Integration Tests
 - Rest Assured
+- JaCoCo
+- Continuous deployment
+- Heroku
