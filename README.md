@@ -6,7 +6,7 @@
 Latest version deployed to [Heroku](https://rankcomplete.herokuapp.com/status) 
 
 In this project:
-- Java 8
+- Java 11
 - Spring Boot
 - REST
 - Spring MVC
