@@ -21,5 +21,5 @@ In this project:
 - Integration Tests
 - Rest Assured
 - JaCoCo
-- Continuous deployment
+- Continuous delivery
 - Heroku
